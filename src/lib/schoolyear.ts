@@ -101,7 +101,7 @@ export class Schoolyear {
   }
 
   days_passed(days: Temporal.PlainDate[], d: Temporal.PlainDate): number {
-    let i = days.findIndex((a)=>Temporal.PlainDate.compare(a, d)!=-1)+1
+    let i = days.findIndex((a)=>Temporal.PlainDate.compare(a, d)!=-1)
     return i > 0 ? i : 0
   }  
 

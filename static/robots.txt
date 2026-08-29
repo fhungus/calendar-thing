@@ -1,3 +1,4 @@
+# It's me.... I, Robot from the I, Robot movie. VRRRRRR greeeee GNGNGNGNGN 🤖🤖🤖🤖🤖🤖🤖
 # allow crawling everything by default
 User-agent: *
 Disallow:

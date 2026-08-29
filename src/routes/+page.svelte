@@ -4,8 +4,8 @@
     import Stats from "$lib/stats.svelte";
 
     // schoolday
-    const today = Temporal.PlainDate.from("2026-12-03");
-    //const today = Temporal.Now.plainDateISO();
+    // const today = Temporal.PlainDate.from("2026-12-03");
+    const today = Temporal.Now.plainDateISO().add(Temporal.Duration.from("P1D"));
     let schoolyear = default_schoolyear(today, start_date_def, end_date_def);
     let schooldays = schoolyear.get_list_of_days();
     let holidays = schoolyear.get_holidays();
@@ -45,7 +45,7 @@
             --border: #272632;
             --accent: #6e84de;
 
-            --vis-today: rgb(111, 140, 209);
+            --vis-today: rgb(47, 106, 244);
             --vis-next:  #323340;
             --vis-holiday: rgb(29, 29, 36);
 
