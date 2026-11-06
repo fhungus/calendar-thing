@@ -121,7 +121,7 @@ export const start_date_def = Temporal.PlainMonthDay.from("--08-28");
 export const end_date_def = Temporal.PlainMonthDay.from("--05-22");
 export const default_holidays: Holiday[] = [
   {
-    start: Temporal.PlainDate.from("0000-10-17"),
+    start: Temporal.PlainDate.from("0000-10-24"),
     end: Temporal.PlainDate.from("0000-10-31")
   },
   {
